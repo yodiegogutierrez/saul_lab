@@ -18,7 +18,7 @@
 		<java.version>15</java.version>
 		<lombok.version>1.18.20</lombok.version>
 		<jackson.version>2.12.3</jackson.version>
-		<aws-s3-sdk.version>2.16.92</aws-s3-sdk.version>
+		<aws-s3-sdk.version>1.12.31</aws-s3-sdk.version>
 	</properties>
 
 	<dependencies>
@@ -45,8 +45,8 @@
 			<version>${jackson.version}</version>
 		</dependency>
 		<dependency>
-			<groupId>software.amazon.awssdk</groupId>
-			<artifactId>s3</artifactId>
+			<groupId>com.amazonaws</groupId>
+			<artifactId>aws-java-sdk-s3</artifactId>
 			<version>${aws-s3-sdk.version}</version>
 		</dependency>
 		<dependency>
